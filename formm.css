@@ -1,0 +1,49 @@
+body{
+            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 30px 50px;
+            font-size: 17px;
+            padding: 8px;
+        }
+        .container{
+            background-color: gainsboro;
+            float: left;
+            border: 1.5px solid black;
+            border-radius: 4px;
+            width: 80%;
+        }
+        h1,.p{
+            color: white;
+            background-color: orange;
+            margin: initial;
+            padding: 4px 20px 4px 60px;
+            height:50px;
+        }
+        input[type="text"],input[type="email"],
+        input[type="subject"],textarea{
+            margin: 10px;
+            width: 90%;
+            padding: 12px;
+            border: 2px solid blanchedalmond;
+            border-radius: 2px;
+        }
+        input[type="submit"]:hover
+        {
+            background-color: aqua;
+        }
+        input[type="submit"]
+        {
+            color: white;
+            background-color: brown;
+            border:none;
+            border-radius: 2px;
+            padding: 12px 20px;
+            
+            cursor: pointer;
+        }
+        p{
+            padding: 5px 20px 15px 20px;
+        }
+        .submit{
+            padding:5px 15px 5px 20px;
+        }
